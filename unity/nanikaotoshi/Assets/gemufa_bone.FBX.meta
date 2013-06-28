@@ -1,0 +1,372 @@
+fileFormatVersion: 2
+guid: 0b2e3a7ae00f2483f8d9a2c2b9811a42
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: body
+    100002: Bone_cheek_L02
+    100004: Bone_cheek_L_end
+    100006: Bone_cheek_R01
+    100008: Bone_cheek_R_end
+    100010: Bone_hair_c01_001
+    100012: Bone_hair_c01_002
+    100014: Bone_hair_c01_end
+    100016: Bone_hair_c02_001
+    100018: Bone_hair_c02_002
+    100020: Bone_hair_c02_end
+    100022: Bone_hair_c03_001
+    100024: Bone_hair_c03_002
+    100026: Bone_hair_c03_end
+    100028: Bone_hair_c04_001
+    100030: Bone_hair_c04_002
+    100032: Bone_hair_c04_end
+    100034: Bone_hair_c05_001
+    100036: Bone_hair_c05_end
+    100038: Bone_hair_L01_001
+    100040: Bone_hair_L01_002
+    100042: Bone_hair_L01_end
+    100044: Bone_hair_L02_001
+    100046: Bone_hair_L02_002
+    100048: Bone_hair_L02_end
+    100050: Bone_hair_L03_001
+    100052: Bone_hair_L03_002
+    100054: Bone_hair_L03_end
+    100056: Bone_hair_L04_001
+    100058: Bone_hair_L04_002
+    100060: Bone_hair_L04_end
+    100062: Bone_hair_L05_001
+    100064: Bone_hair_L05_002
+    100066: Bone_hair_L05_end
+    100068: Bone_hair_L06_001
+    100070: Bone_hair_L06_002
+    100072: Bone_hair_L06_end
+    100074: Bone_hair_L07_001
+    100076: Bone_hair_L07_002
+    100078: Bone_hair_L07_end
+    100080: Bone_hair_L08_001
+    100082: Bone_hair_L08_002
+    100084: Bone_hair_L08_end
+    100086: Bone_hair_L09_001
+    100088: Bone_hair_L09_002
+    100090: Bone_hair_L09_end
+    100092: Bone_hair_L10_001
+    100094: Bone_hair_L10_002
+    100096: Bone_hair_L10_end
+    100098: Bone_hair_R01_001
+    100100: Bone_hair_R01_002
+    100102: Bone_hair_R01_end
+    100104: Bone_hair_R02_001
+    100106: Bone_hair_R02_002
+    100108: Bone_hair_R02_end
+    100110: Bone_hair_R03_001
+    100112: Bone_hair_R03_002
+    100114: Bone_hair_R03_end
+    100116: Bone_hair_R04_001
+    100118: Bone_hair_R04_002
+    100120: Bone_hair_R04_end
+    100122: Bone_hair_R05_001
+    100124: Bone_hair_R05_002
+    100126: Bone_hair_R05_end
+    100128: Bone_hair_R06_001
+    100130: Bone_hair_R06_002
+    100132: Bone_hair_R06_end
+    100134: Bone_hair_R07_001
+    100136: Bone_hair_R07_002
+    100138: Bone_hair_R07_003
+    100140: Bone_hair_R08_001
+    100142: Bone_hair_R08_002
+    100144: Bone_hair_R08_end
+    100146: Bone_hair_R09_001
+    100148: Bone_hair_R09_002
+    100150: Bone_hair_R09_end
+    100152: Bone_hair_R10_001
+    100154: Bone_hair_R10_002
+    100156: Bone_hair_R10_end
+    100158: Bone_L_ear_001
+    100160: Bone_L_ear_002
+    100162: Bone_L_ear_end
+    100164: Bone_nose01
+    100166: Bone_nose02
+    100168: Bone_nose_end
+    100170: Bone_R_ear_001
+    100172: Bone_R_ear_002
+    100174: Bone_R_ear_end
+    100176: Bone_tail001
+    100178: Bone_tail002
+    100180: Bone_tail003
+    100182: Bone_tail004
+    100184: Bone_tail_end
+    100186: //RootNode
+    100188: hand
+    100190: IK Chain001
+    100192: logo01
+    100194: Point001
+    100196: Point002
+    100198: Point003
+    100200: Point004
+    100202: Point005
+    100204: SGF
+    100206: SGF Footsteps
+    100208: SGF Head
+    100210: SGF L Calf
+    100212: SGF L Clavicle
+    100214: SGF L Finger0
+    100216: SGF L Finger01
+    100218: SGF L Finger1
+    100220: SGF L Finger11
+    100222: SGF L Finger1Nub
+    100224: SGF L Finger2
+    100226: SGF L Finger21
+    100228: SGF L Finger2Nub
+    100230: SGF L Foot
+    100232: SGF L Forearm
+    100234: SGF L Hand
+    100236: SGF L Thigh
+    100238: SGF L Toe0
+    100240: SGF L UpperArm
+    100242: SGF Neck
+    100244: SGF Pelvis
+    100246: SGF R Calf
+    100248: SGF R Clavicle
+    100250: SGF R Finger0
+    100252: SGF R Finger1
+    100254: SGF R Finger11
+    100256: SGF R Finger1Nub
+    100258: SGF R Finger2
+    100260: SGF R Finger21
+    100262: SGF R Finger2Nub
+    100264: SGF R Foot
+    100266: SGF R Forearm
+    100268: SGF R Hand
+    100270: SGF R Thigh
+    100272: SGF R Toe0
+    100274: SGF R UpperArm
+    100276: SGF Spine
+    100278: SGF Spine1
+    100280: SplineIKNode001
+    100282: tail_hi
+    100284: tail_Low
+    100286: under
+    400000: body
+    400002: Bone_cheek_L02
+    400004: Bone_cheek_L_end
+    400006: Bone_cheek_R01
+    400008: Bone_cheek_R_end
+    400010: Bone_hair_c01_001
+    400012: Bone_hair_c01_002
+    400014: Bone_hair_c01_end
+    400016: Bone_hair_c02_001
+    400018: Bone_hair_c02_002
+    400020: Bone_hair_c02_end
+    400022: Bone_hair_c03_001
+    400024: Bone_hair_c03_002
+    400026: Bone_hair_c03_end
+    400028: Bone_hair_c04_001
+    400030: Bone_hair_c04_002
+    400032: Bone_hair_c04_end
+    400034: Bone_hair_c05_001
+    400036: Bone_hair_c05_end
+    400038: Bone_hair_L01_001
+    400040: Bone_hair_L01_002
+    400042: Bone_hair_L01_end
+    400044: Bone_hair_L02_001
+    400046: Bone_hair_L02_002
+    400048: Bone_hair_L02_end
+    400050: Bone_hair_L03_001
+    400052: Bone_hair_L03_002
+    400054: Bone_hair_L03_end
+    400056: Bone_hair_L04_001
+    400058: Bone_hair_L04_002
+    400060: Bone_hair_L04_end
+    400062: Bone_hair_L05_001
+    400064: Bone_hair_L05_002
+    400066: Bone_hair_L05_end
+    400068: Bone_hair_L06_001
+    400070: Bone_hair_L06_002
+    400072: Bone_hair_L06_end
+    400074: Bone_hair_L07_001
+    400076: Bone_hair_L07_002
+    400078: Bone_hair_L07_end
+    400080: Bone_hair_L08_001
+    400082: Bone_hair_L08_002
+    400084: Bone_hair_L08_end
+    400086: Bone_hair_L09_001
+    400088: Bone_hair_L09_002
+    400090: Bone_hair_L09_end
+    400092: Bone_hair_L10_001
+    400094: Bone_hair_L10_002
+    400096: Bone_hair_L10_end
+    400098: Bone_hair_R01_001
+    400100: Bone_hair_R01_002
+    400102: Bone_hair_R01_end
+    400104: Bone_hair_R02_001
+    400106: Bone_hair_R02_002
+    400108: Bone_hair_R02_end
+    400110: Bone_hair_R03_001
+    400112: Bone_hair_R03_002
+    400114: Bone_hair_R03_end
+    400116: Bone_hair_R04_001
+    400118: Bone_hair_R04_002
+    400120: Bone_hair_R04_end
+    400122: Bone_hair_R05_001
+    400124: Bone_hair_R05_002
+    400126: Bone_hair_R05_end
+    400128: Bone_hair_R06_001
+    400130: Bone_hair_R06_002
+    400132: Bone_hair_R06_end
+    400134: Bone_hair_R07_001
+    400136: Bone_hair_R07_002
+    400138: Bone_hair_R07_003
+    400140: Bone_hair_R08_001
+    400142: Bone_hair_R08_002
+    400144: Bone_hair_R08_end
+    400146: Bone_hair_R09_001
+    400148: Bone_hair_R09_002
+    400150: Bone_hair_R09_end
+    400152: Bone_hair_R10_001
+    400154: Bone_hair_R10_002
+    400156: Bone_hair_R10_end
+    400158: Bone_L_ear_001
+    400160: Bone_L_ear_002
+    400162: Bone_L_ear_end
+    400164: Bone_nose01
+    400166: Bone_nose02
+    400168: Bone_nose_end
+    400170: Bone_R_ear_001
+    400172: Bone_R_ear_002
+    400174: Bone_R_ear_end
+    400176: Bone_tail001
+    400178: Bone_tail002
+    400180: Bone_tail003
+    400182: Bone_tail004
+    400184: Bone_tail_end
+    400186: //RootNode
+    400188: hand
+    400190: IK Chain001
+    400192: logo01
+    400194: Point001
+    400196: Point002
+    400198: Point003
+    400200: Point004
+    400202: Point005
+    400204: SGF
+    400206: SGF Footsteps
+    400208: SGF Head
+    400210: SGF L Calf
+    400212: SGF L Clavicle
+    400214: SGF L Finger0
+    400216: SGF L Finger01
+    400218: SGF L Finger1
+    400220: SGF L Finger11
+    400222: SGF L Finger1Nub
+    400224: SGF L Finger2
+    400226: SGF L Finger21
+    400228: SGF L Finger2Nub
+    400230: SGF L Foot
+    400232: SGF L Forearm
+    400234: SGF L Hand
+    400236: SGF L Thigh
+    400238: SGF L Toe0
+    400240: SGF L UpperArm
+    400242: SGF Neck
+    400244: SGF Pelvis
+    400246: SGF R Calf
+    400248: SGF R Clavicle
+    400250: SGF R Finger0
+    400252: SGF R Finger1
+    400254: SGF R Finger11
+    400256: SGF R Finger1Nub
+    400258: SGF R Finger2
+    400260: SGF R Finger21
+    400262: SGF R Finger2Nub
+    400264: SGF R Foot
+    400266: SGF R Forearm
+    400268: SGF R Hand
+    400270: SGF R Thigh
+    400272: SGF R Toe0
+    400274: SGF R UpperArm
+    400276: SGF Spine
+    400278: SGF Spine1
+    400280: SplineIKNode001
+    400282: tail_hi
+    400284: tail_Low
+    400286: under
+    2300000: body
+    2300002: hand
+    2300004: logo01
+    2300006: tail_hi
+    2300008: tail_Low
+    2300010: under
+    3300000: body
+    3300002: hand
+    3300004: logo01
+    3300006: tail_hi
+    3300008: tail_Low
+    3300010: under
+    4300000: logo01
+    4300002: under
+    4300004: tail_hi
+    4300006: hand
+    4300008: body
+    4300010: tail_Low
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: body
+    13700002: hand
+    13700004: logo01
+    13700006: tail_hi
+    13700008: tail_Low
+    13700010: under
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

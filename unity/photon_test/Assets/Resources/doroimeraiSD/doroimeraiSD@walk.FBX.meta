@@ -1,0 +1,111 @@
+fileFormatVersion: 2
+guid: 4599adabd63599640b786cf98ad1d2f7
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: rameSD L Foot
+    100002: rameSD R Calf
+    100004: rameSD Spine2
+    100006: rameSD Head
+    100008: rameSD Neck
+    100010: rameSD R Foot
+    100012: rameSD Spine
+    100014: rameSD L Thigh
+    100016: rameSD L Calf
+    100018: rameSD L Hand
+    100020: rameSDribbon
+    100022: rameSD R Hand
+    100024: rameSD
+    100026: rameSD_mdl
+    100028: rameSD R Thigh
+    100030: //RootNode
+    100032: rameSD R Forearm
+    100034: rameSD R UpperArm
+    100036: rameSD L Forearm
+    100038: rameSD L UpperArm
+    100040: rameSD PelvisBone01
+    100042: rameSDTail1
+    100044: rameSD_R_platform
+    100046: rameSD_L_platform
+    100048: rameSD Pelvis
+    400000: rameSD L Foot
+    400002: rameSD R Calf
+    400004: rameSD Spine2
+    400006: rameSD Head
+    400008: rameSD Neck
+    400010: rameSD R Foot
+    400012: rameSD Spine
+    400014: rameSD L Thigh
+    400016: rameSD L Calf
+    400018: rameSD L Hand
+    400020: rameSDribbon
+    400022: rameSD R Hand
+    400024: rameSD
+    400026: rameSD_mdl
+    400028: rameSD R Thigh
+    400030: //RootNode
+    400032: rameSD R Forearm
+    400034: rameSD R UpperArm
+    400036: rameSD L Forearm
+    400038: rameSD L UpperArm
+    400040: rameSD PelvisBone01
+    400042: rameSDTail1
+    400044: rameSD_R_platform
+    400046: rameSD_L_platform
+    400048: rameSD Pelvis
+    4300000: rameSD_mdl
+    7400000: doroirameSD_walk
+    11100000: //RootNode
+    13700000: rameSD_mdl
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

@@ -1,0 +1,139 @@
+fileFormatVersion: 2
+guid: d7c3ce9170b2f4855a24c12785781fc8
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: body
+    100002: Camera001
+    100004: Camera001.Target
+    100006: Camera002
+    100008: Camera002.Target
+    100010: Camera003
+    100012: Camera003.Target
+    100014: Camera_572*691
+    100016: Camera_572*691.Target
+    100018: Camera_left
+    100020: Camera_left.Target
+    100022: Camera_perse01
+    100024: Camera_perse01.Target
+    100026: Camera_perse02
+    100028: Camera_perse02.Target
+    100030: Camera_perse_back
+    100032: Camera_perse_back.Target
+    100034: Camera_right
+    100036: Camera_right.Target
+    100038: Camera_top
+    100040: Camera_top.Target
+    100042: //RootNode
+    100044: hand
+    100046: logo01
+    100048: Plane001
+    100050: Spot001
+    100052: Spot001.Target
+    100054: Spot002
+    100056: Spot002.Target
+    100058: tail
+    100060: under
+    400000: body
+    400002: Camera001
+    400004: Camera001.Target
+    400006: Camera002
+    400008: Camera002.Target
+    400010: Camera003
+    400012: Camera003.Target
+    400014: Camera_572*691
+    400016: Camera_572*691.Target
+    400018: Camera_left
+    400020: Camera_left.Target
+    400022: Camera_perse01
+    400024: Camera_perse01.Target
+    400026: Camera_perse02
+    400028: Camera_perse02.Target
+    400030: Camera_perse_back
+    400032: Camera_perse_back.Target
+    400034: Camera_right
+    400036: Camera_right.Target
+    400038: Camera_top
+    400040: Camera_top.Target
+    400042: //RootNode
+    400044: hand
+    400046: logo01
+    400048: Plane001
+    400050: Spot001
+    400052: Spot001.Target
+    400054: Spot002
+    400056: Spot002.Target
+    400058: tail
+    400060: under
+    2300000: body
+    2300002: hand
+    2300004: logo01
+    2300006: Plane001
+    2300008: tail
+    2300010: under
+    3300000: body
+    3300002: hand
+    3300004: logo01
+    3300006: Plane001
+    3300008: tail
+    3300010: under
+    4300000: Plane001
+    4300002: logo01
+    4300004: under
+    4300006: tail
+    4300008: hand
+    4300010: body
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Resources/Player.js">
+    <Files>
+      <File FileName="Assets/Photon Unity Networking/DemoWorker/Scripts/Game/Chat.cs" Line="15" Column="35" />
+      <File FileName="Assets/Resources/Player.js" Line="21" Column="41" />
+      <File FileName="Assets/Photon Unity Networking/DemoWorker/Scripts/Game/GameManager.cs" Line="21" Column="87" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
