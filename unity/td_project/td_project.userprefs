@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/Toon Shading/Sources/Shaders/Toony-BasicOutline.shader">
+    <Files>
+      <File FileName="Assets/Standard Assets/Toon Shading/Sources/Shaders/Toony-BasicOutline.shader" Line="15" Column="26" />
+      <File FileName="Assets/Scripts/NGUIUtil.cs" Line="27" Column="49" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
