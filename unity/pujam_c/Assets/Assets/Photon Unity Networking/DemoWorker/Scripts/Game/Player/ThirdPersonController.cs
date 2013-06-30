@@ -43,7 +43,7 @@ public class ThirdPersonController : MonoBehaviour
     public float jumpHeight = 0.5f;
 
     // The gravity for the character
-    public float gravity = 20.0f;
+    public float gravity = 20.0f; 
     // The gravity in controlled descent mode
     public float speedSmoothing = 10.0f;
     public float rotateSpeed = 500.0f;
@@ -288,35 +288,59 @@ public class ThirdPersonController : MonoBehaviour
     }
 
     Vector3 velocity = Vector3.zero;
+	
+	void playSe( string name ){
+		GameObject so = GameObject.Find("SoundObject");
+		SoundManager sm = so.GetComponent<SoundManager>();
+		sm.PlaySe(name);
+	}
 
     void Update()
-    {        
+    {       
         if (isControllable)
         {
-            if (Input.GetButtonDown("Jump"))
-            {
-                lastJumpButtonTime = Time.time;
-            }
-
-            UpdateSmoothedMovementDirection();
-
-            // Apply gravity
-            // - extra power jump modifies gravity
-            // - controlledDescent mode modifies gravity
-            ApplyGravity();
-
-            // Apply jumping logic
-            ApplyJumping();
-
-
-            // Calculate actual motion
-            Vector3 movement = moveDirection * moveSpeed + new Vector3(0, verticalSpeed, 0) + inAirVelocity;
-            movement *= Time.deltaTime;
-
-            // Move the controller
-            CharacterController controller = GetComponent<CharacterController>();
-            collisionFlags = controller.Move(movement);
+			// Move the controller
+           	CharacterController controller = GetComponent<CharacterController>();
+			
+			if (Input.GetMouseButtonDown(0))
+			{
+				Debug.Log("click");
+				Vector3 vec = Input.mousePosition;
+				vec.z = 1.0f;
+		    	iTween.MoveTo(gameObject, camera.ScreenToWorldPoint(vec), 1.0f);
+		
+			}else{
+			
+			
+	            if (Input.GetButtonDown("Jump"))
+	            {
+	                lastJumpButtonTime = Time.time;
+	            }
+	
+	            UpdateSmoothedMovementDirection();
+	
+	            // Apply gravity
+	            // - extra power jump modifies gravity
+	            // - controlledDescent mode modifies gravity
+	            ApplyGravity();
+	
+	            // Apply jumping logic
+	            ApplyJumping();
+	
+	
+	            // Calculate actual motion
+	            Vector3 movement = moveDirection * moveSpeed + new Vector3(0, verticalSpeed, 0) + inAirVelocity;
+	            movement *= Time.deltaTime;
+		
+	            collisionFlags = controller.Move(movement);
+			}
         }
+		Debug.Log(this.transform.position);
+		if(this.transform.position.z>55.0){
+			StartCoroutine(WaitTime());
+			playSe("SE-GOMAopen");
+			resets ();
+		}
         velocity = (transform.position - lastPos)*25;
 
         // ANIMATION sector
@@ -471,6 +495,16 @@ public class ThirdPersonController : MonoBehaviour
     {
         gameObject.tag = "Player";
     }
+	
+	void resets ()
+	{
+		GameObject target = GameObject.FindGameObjectWithTag("Doroid");
+		target.transform.position = new Vector3(0f,10.0f,0);
+		
+		GameObject.FindWithTag("GameController").SendMessage("addPoint", PhotonNetwork.player.ID);
+	}
 
-
+	IEnumerator WaitTime(){
+		yield return new WaitForSeconds(5);	
+	}
 }

@@ -58,5 +58,19 @@ public class ThirdPersonNetwork : Photon.MonoBehaviour
             transform.rotation = Quaternion.Lerp(transform.rotation, correctPlayerRot, Time.deltaTime * 5);
         }
     }
-
+	
+	void chkRejectCamera(){
+		if(photonView.isMine){
+			GetComponent<ThirdPersonCamera>().enabled = false;
+			Camera.main.GetComponent<TraceCharactor>().enabled = true;
+			Camera.main.GetComponent<TraceCharactor>().prefab = gameObject;
+		}
+	}
+	
+	void chkAddCamera(){
+		if(photonView.isMine){
+			Camera.main.GetComponent<TraceCharactor>().enabled = false;
+			GetComponent<ThirdPersonCamera>().enabled = true;
+		}
+	}
 }
